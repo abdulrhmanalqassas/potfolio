@@ -10,6 +10,7 @@ export default function Contact(){
       emailjs.sendForm('service_fbdiyzr', 'template_jt1fq7f', form.current, '8rmblELAoWc85KiFA')
         .then((result) => {
           console.log(result)
+          alert(" thank for your submit i can not waite  to see it");
         }, (error) => {
             // show the user an error
             console.log(error)
