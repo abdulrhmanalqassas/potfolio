@@ -35,6 +35,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 0;
 }
 
 li {
@@ -267,12 +268,12 @@ footer li {
 }
 
 .menu {
-  width: 60%;
-  height: 30vh;
+  width: 45%;
+  height: 20vh;
   background-color: rgb(21, 34, 64);
   position: absolute;
   top: 40px;
-  padding: 40px;
+  padding: 30px;
   /* border: #00f5a0 2px solid ; */
   border-radius:20px ;
   z-index: 0;
@@ -281,6 +282,10 @@ footer li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.menu >div *{
+  padding-left: 8px ;
+  border-left:4px solid #00f5a0 ;
 }
 
 /* ------------- sliding menu ------------------ */
