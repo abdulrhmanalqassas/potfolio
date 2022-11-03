@@ -7,7 +7,7 @@ P {
   font-size: 1.25rem;
   line-height: 1.3rem;
   letter-spacing: 0.0144rem;
-  text-align: left;
+  text-align: justify;
 }
 
 h3 {
@@ -151,7 +151,7 @@ section {
   box-sizing: content-box;
   background: #222525;
   border-radius: 0.1174rem;
-  height: fit-content;
+  height: 430;
   margin: 0 auto;
 }
 .project-card:hover {
