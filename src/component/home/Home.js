@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Project/>
+      <Project displayedNumber={2} />
       <About />
       <Skills />
     </>

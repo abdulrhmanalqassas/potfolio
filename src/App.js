@@ -1,10 +1,10 @@
 import "./App.css";
-import { Routes , Route} from 'react-router-dom';
-import Nav from "./componant/Nav";
-import Home from "./componant/home/Home";
-import Footer from "./componant/Footer";
-import Contact from "./componant/Contact";
-
+import { Routes, Route } from "react-router-dom";
+import Nav from "./component/Nav";
+import Home from "./component/home/Home";
+import Footer from "./component/Footer";
+import Contact from "./component/Contact";
+import Project from "./component/Project/Project";
 
 function App() {
   return (
@@ -12,11 +12,11 @@ function App() {
       <Nav />
 
       <Routes>
-      <Route path="/" element={  <Home />} />
-      <Route path="/Contact" element={<Contact />} />
-     </Routes>
-     
-      
+        <Route path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/projects" element={<Project displayedNumber={4} />} />
+      </Routes>
+
       <Footer />
     </div>
   );

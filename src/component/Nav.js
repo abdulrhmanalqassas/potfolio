@@ -20,17 +20,23 @@ export default function Nav() {
   };
 
   return (
+    <div style={{postion:"fixed"}}>
     <nav>
       <ul>
         <div className={menu_class}>
           <div>
-            <Link to="">HOME </Link>
-            <Link to="Contact">Contact</Link>
+            <Link onClick={updateMenu} to="">HOME </Link>
+            <Link onClick={updateMenu} to="Contact">Contact</Link>
+            <Link onClick={updateMenu} to="Projects">Projects</Link>
           </div>
         </div>
         <Link to="">
-          {" "}
+   
           <li className="nav-link">home</li>
+        </Link>
+        <Link to="projects">
+   
+          <li className="nav-link">projects</li>
         </Link>
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
@@ -39,13 +45,14 @@ export default function Nav() {
         </div>
         
         <li className="nav-link">
-          {/* Projects */}
+          
           <Link to="Contact">
-            {" "}
+            
             <button>Contact</button>
           </Link>
         </li>
       </ul>
     </nav>
+    </div>
   );
 }

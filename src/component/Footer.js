@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   const mySocial = [];
-  {
+  
     for (const key in IMAGES) {
       const element = (
         <>
-          {" "}
+          
           <a href={IMAGES[key]["href"]} ><img
             className={"social-icon"}
             key={key}
@@ -22,7 +22,7 @@ export default function Footer() {
           
       );
       mySocial.push(element);
-    }
+    
   }
   return (
     <footer>
