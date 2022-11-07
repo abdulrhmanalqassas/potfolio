@@ -34,7 +34,7 @@ export default function Nav() {
    
           <li className="nav-link">home</li>
         </Link>
-        <Link to="projects">
+        <Link to="Projects">
    
           <li className="nav-link">projects</li>
         </Link>

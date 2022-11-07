@@ -21,10 +21,12 @@ export default function Project(props) {
           displayedProject(props.displayedNumber)
         }
       </div>
-      <Link to="Projects">
+      
+      
+         { props.displayedNumber<3 && <Link to="Projects">
           
-            <button>viw more Project</button>
-          </Link>
+            <button>view more Projects</button>
+          </Link>}
     </section>
   );
 }
