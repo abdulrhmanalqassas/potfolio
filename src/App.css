@@ -97,7 +97,7 @@ a:hover {
   box-sizing: border-box;
   display: grid;
   overflow: unset;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 0.8fr));
+  grid-template-columns: repeat(2, minmax(300px, 0.8fr));
   justify-content: space-around;
   align-items: center;
   padding: 2.5rem 4.375rem;
@@ -152,18 +152,19 @@ section {
   box-sizing: content-box;
   background: #222525;
   border-radius: 0.1174rem;
-  height: 550px;
+  height: 600px;
   margin: 0 auto;
 }
 .project-card:hover {
-  border: #00f5a0 0.25rem solid;
+  /* border: #00f5a0 0.25rem solid; */
 }
 
 .project-card :first-child {
   width: 100%;
   margin: 0;
 }
-
+.project-card a button,
+.project-card a ,
 .project-card button {
   width: fit-content;
   height: 2.8125rem;
@@ -351,6 +352,8 @@ footer li {
     font-size: 1.6594rem;
     line-height: 1.9375rem;
   }
+  .project-card a button,
+  .project-card a ,
   .project-card button {
     width: fit-content;
     height: 1.8125rem;
