@@ -1,7 +1,7 @@
 {
   "name": "new",
   "version": "0.1.0",
-  "homepage": "https://abdulrhmanalqassas.github.io/potfolio/home",
+  "homepage": "https://abdulrhmanalqassas.github.io/potfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
