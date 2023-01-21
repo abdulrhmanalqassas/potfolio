@@ -28,7 +28,7 @@ export default function Footer() {
     <footer>
       <div className="social">{mySocial}</div>
       <ul>
-        <Link to="">
+        <Link to="potfolio">
           <li>HOME</li>
         </Link>
 

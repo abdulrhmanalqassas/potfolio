@@ -25,12 +25,12 @@ export default function Nav() {
       <ul>
         <div className={menu_class}>
           <div>
-            <Link onClick={updateMenu} to="">HOME </Link>
+            <Link onClick={updateMenu} to="potfolio">HOME </Link>
             <Link onClick={updateMenu} to="Contact">Contact</Link>
             <Link onClick={updateMenu} to="Projects">Projects</Link>
           </div>
         </div>
-        <Link to="">
+        <Link to="potfolio">
    
           <li className="nav-link">home</li>
         </Link>
