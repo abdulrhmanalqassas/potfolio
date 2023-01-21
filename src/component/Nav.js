@@ -26,15 +26,15 @@ export default function Nav() {
         <div className={menu_class}>
           <div>
             <Link onClick={updateMenu} to="potfolio">HOME </Link>
-            <Link onClick={updateMenu} to="Contact">Contact</Link>
-            <Link onClick={updateMenu} to="Projects">Projects</Link>
+            <Link onClick={updateMenu} to="potfolio/Contact">Contact</Link>
+            <Link onClick={updateMenu} to="potfolio/Projects">Projects</Link>
           </div>
         </div>
         <Link to="potfolio">
    
           <li className="nav-link">home</li>
         </Link>
-        <Link to="Projects">
+        <Link to="potfolio/Projects">
    
           <li className="nav-link">projects</li>
         </Link>
@@ -46,7 +46,7 @@ export default function Nav() {
         
         <li className="nav-link">
           
-          <Link to="Contact">
+          <Link to="potfolio/Contact">
             
             <button>Contact</button>
           </Link>

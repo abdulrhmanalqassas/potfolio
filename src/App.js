@@ -12,6 +12,7 @@ function App() {
       <Nav />
 
       <Routes>
+     
         <Route path="/potfolio/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/projects" element={<Project displayedNumber={4} />} />
