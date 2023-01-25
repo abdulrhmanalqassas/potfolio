@@ -30,6 +30,14 @@ const myProjects = {
     technologies: ["Vanilla JS", "html", "CSS"],
     link:"https://wordleclonealqassas.netlify.app/",
   },
+  p5:{
+    image: require("../../images/sideup.png"),
+    title: "DashBoard",
+    description:
+      "A Clone of the famous Wordle game with word categories.",
+    technologies: ["Vanilla JS", "html", "CSS"],
+    link:"https://abdulrhmanalqassas.github.io/sideup/",
+  }
 };
 
 export default myProjects;
