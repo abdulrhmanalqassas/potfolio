@@ -12,10 +12,9 @@ function App() {
       <Nav />
 
       <Routes>
-     
         <Route path="/potfolio/" element={<Home />} />
-        <Route path="potfolio/Contact" element={<Contact />} />
-        <Route path="potfolio/projects" element={<Project displayedNumber={4} />} />
+        <Route path="*/Contact" element={<Contact />} />
+        <Route path="*/projects" element={<Project displayedNumber={4} />} />
       </Routes>
 
       <Footer />
