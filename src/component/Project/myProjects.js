@@ -3,16 +3,18 @@ const myProjects = {
     image: require("../../images/sideup.png"),
     title: "DashBoard",
     description:
-      "A Clone of the famous Wordle game with word categories.",
-    technologies: ["Vanilla JS", "html", "CSS"],
+      "Dashboard converted from figma to React app with translation from Ar To en  with nice apexcharts  AND using React design patterns ",
+    technologies: ["React", "i18next", "styled components"],
     link:"https://abdulrhmanalqassas.github.io/sideup/",
   },
   p2: {
-    image: require("../../images/h4isite.png"),
-    title: "HI COMMERCE",
+    image: require("../../images/todo.png"),
+    title: "TODO",
     description:
-      "Fully featured Ecommerce website with currency switcher, cart, category, and PDP andJWT authentication",
-    technologies: ["REACT", "apollo", "graphQL", "redux"],
+      "a todo app wit the best implementation for the react eco system startin from scratch and implement the config for webpack.config and .babelrc with my one backend   ",
+    technologies: ["REACT", "Redux", "Thunk", "reselect","chai"],
+    link:"https://abdulrhmanalqassas.github.io/React-eco",
+   
   },
   p3: {
     image: require("../../images/VBCc.png"),
@@ -31,12 +33,21 @@ const myProjects = {
     link:"https://profound-druid-c33c9e.netlify.app",
   },
   p5: {
+    image: require("../../images/h4isite.png"),
+    title: "HI COMMERCE",
+    description:
+      "Fully featured Ecommerce website with currency switcher, cart, category, and PDP andJWT authentication",
+    technologies: ["REACT", "apollo", "graphQL", "redux"],
+   
+  },
+  p6: {
     image: require("../../images/Wordle.png"),
     title: "Wordle Game ",
     description:
       "A Clone of the famous Wordle game with word categories.",
     technologies: ["Vanilla JS", "html", "CSS"],
     link:"https://wordleclonealqassas.netlify.app/",
+    
   },
   
 };
