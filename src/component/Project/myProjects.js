@@ -22,7 +22,7 @@ const myProjects = {
     description:
       "This system implemented and designed to provide the authenticity of the data using blockchain and keeping in mind being user-friendly using web browsers and  impossible to hack.",
     technologies: ["react-router", "REACT", "axios"],
-    link:"https://vaccine-verification-system.netlify.app/",
+    link:"https://abdulrhmanalqassas.github.io/Frontend/",
   },
   p4: {
     image: require("../../images/tmlawysite.png"),
