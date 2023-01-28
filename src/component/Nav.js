@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation }  from "react-router-dom";
 import { useState } from "react";
 // const  useState = React.useState
 export default function Nav() {
@@ -18,6 +18,10 @@ export default function Nav() {
     }
     setIsMenuClicked(!isMenuClicked);
   };
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
 
   return (
     <div style={{postion:"fixed"}}>

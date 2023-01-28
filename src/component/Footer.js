@@ -1,8 +1,11 @@
 import React from "react";
 import IMAGES from "../images/social";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export default function Footer() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
   const mySocial = [];
   
     for (const key in IMAGES) {
