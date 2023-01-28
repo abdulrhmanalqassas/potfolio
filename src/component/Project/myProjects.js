@@ -30,7 +30,7 @@ const myProjects = {
     description:
       " Help managing student state and many courses info managing payment .",
     technologies: ["MUI", "REACT", "axios"],
-    link:"https://profound-druid-c33c9e.netlify.app",
+    link:"https://abdulrhmanalqassas.github.io/edu-fronend-only/",
   },
   p5: {
     image: require("../../images/h4isite.png"),
