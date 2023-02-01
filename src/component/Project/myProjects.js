@@ -32,7 +32,15 @@ const myProjects = {
     technologies: ["MUI", "REACT", "axios"],
     link:"https://abdulrhmanalqassas.github.io/edu-fronend-only/",
   },
-  p5: {
+  p5:{
+    image: require("../../images/book.png"),
+    title: "BooK Review",
+    description:
+      "Build Your library looking for the best book in BooK Review",
+    technologies: ["REACT", "tailwind", "React Query", "redux"],
+    link:"https://abdulrhmanalqassas.github.io/bookShop",
+  },
+  p6: {
     image: require("../../images/h4isite.png"),
     title: "HI COMMERCE",
     description:
@@ -40,7 +48,7 @@ const myProjects = {
     technologies: ["REACT", "apollo", "graphQL", "redux"],
    
   },
-  p6: {
+  p7: {
     image: require("../../images/Wordle.png"),
     title: "Wordle Game ",
     description:
