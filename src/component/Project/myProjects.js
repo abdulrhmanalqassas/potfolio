@@ -7,7 +7,7 @@ const myProjects = {
     technologies: ["React", "i18next", "styled components"],
     link:"https://abdulrhmanalqassas.github.io/sideup/",
   },
-  p2: {
+  p5: {
     image: require("../../images/todo.png"),
     title: "TODO",
     description:
@@ -32,7 +32,7 @@ const myProjects = {
     technologies: ["MUI", "REACT", "axios"],
     link:"https://abdulrhmanalqassas.github.io/edu-fronend-only/",
   },
-  p5:{
+  p2:{
     image: require("../../images/book.png"),
     title: "BooK Review",
     description:
