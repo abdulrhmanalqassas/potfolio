@@ -36,11 +36,11 @@ export default function Nav() {
         </div>
         <Link to="potfolio">
    
-          <li className="nav-link">home</li>
+          <li className="nav-link">Home</li>
         </Link>
         <Link to="potfolio/Projects">
    
-          <li className="nav-link">projects</li>
+          <li className="nav-link">Projects</li>
         </Link>
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
