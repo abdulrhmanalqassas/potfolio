@@ -1,5 +1,5 @@
 const myProjects = {
-  p1:{
+  p8:{
     image: require("../../images/sideup.png"),
     title: "DashBoard",
     description:
@@ -32,7 +32,7 @@ const myProjects = {
     technologies: ["MUI", "REACT", "axios"],
     link:"https://abdulrhmanalqassas.github.io/edu-fronend-only/",
   },
-  p2:{
+  p1:{
     image: require("../../images/book.png"),
     title: "BooK Review",
     description:
@@ -57,7 +57,17 @@ const myProjects = {
     link:"https://wordleclonealqassas.netlify.app/",
     
   },
+  p2: {
+    image: require("../../images/DBTS1.PNG"),
+    title: "Dashboard Template",
+    description:
+      "admin dashboard template is fully responsive , multipurpose and easy to use.with super clean code-structure. ",
+    technologies: ["React.JS", "recharts", "typescript"],
+    link:"https://abdulrhmanalqassas.github.io/Dash-ts-react/",
+    
+  },
   
 };
 
 export default myProjects;
+//
