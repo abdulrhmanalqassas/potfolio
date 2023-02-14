@@ -23,7 +23,7 @@ export default function Project(props) {
       </div>
       
       
-         { props.displayedNumber<3 && <Link to="Projects">
+         { props.displayedNumber<3 && <Link to="potfolio/Projects">
           
             <button>view more Projects</button>
           </Link>}
